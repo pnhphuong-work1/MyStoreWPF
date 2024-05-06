@@ -1,0 +1,11 @@
+D:\Repos\PRN221\MyStoreWPF\BusinessObjects\bin\Debug\net8.0\BusinessObjects.deps.json
+D:\Repos\PRN221\MyStoreWPF\BusinessObjects\bin\Debug\net8.0\BusinessObjects.dll
+D:\Repos\PRN221\MyStoreWPF\BusinessObjects\bin\Debug\net8.0\BusinessObjects.pdb
+D:\Repos\PRN221\MyStoreWPF\BusinessObjects\obj\Debug\net8.0\BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\PRN221\MyStoreWPF\BusinessObjects\obj\Debug\net8.0\BusinessObjects.AssemblyInfoInputs.cache
+D:\Repos\PRN221\MyStoreWPF\BusinessObjects\obj\Debug\net8.0\BusinessObjects.AssemblyInfo.cs
+D:\Repos\PRN221\MyStoreWPF\BusinessObjects\obj\Debug\net8.0\BusinessObjects.csproj.CoreCompileInputs.cache
+D:\Repos\PRN221\MyStoreWPF\BusinessObjects\obj\Debug\net8.0\BusinessObjects.dll
+D:\Repos\PRN221\MyStoreWPF\BusinessObjects\obj\Debug\net8.0\refint\BusinessObjects.dll
+D:\Repos\PRN221\MyStoreWPF\BusinessObjects\obj\Debug\net8.0\BusinessObjects.pdb
+D:\Repos\PRN221\MyStoreWPF\BusinessObjects\obj\Debug\net8.0\ref\BusinessObjects.dll

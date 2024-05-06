@@ -1,0 +1,17 @@
+D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.runtimeconfig.json
+D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.dll
+D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.pdb
+D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
+D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
