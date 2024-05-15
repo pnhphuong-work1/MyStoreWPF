@@ -12,8 +12,9 @@ D:\Repos\PRN221\MyStoreWPF\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEd
 D:\Repos\PRN221\MyStoreWPF\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
 D:\Repos\PRN221\MyStoreWPF\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
 D:\Repos\PRN221\MyStoreWPF\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
-D:\Repos\PRN221\MyStoreWPF\Services\obj\Debug\net8.0\Services.csproj.Up2Date
 D:\Repos\PRN221\MyStoreWPF\Services\obj\Debug\net8.0\Services.dll
 D:\Repos\PRN221\MyStoreWPF\Services\obj\Debug\net8.0\refint\Services.dll
 D:\Repos\PRN221\MyStoreWPF\Services\obj\Debug\net8.0\Services.pdb
 D:\Repos\PRN221\MyStoreWPF\Services\obj\Debug\net8.0\ref\Services.dll
+D:\Repos\PRN221\MyStoreWPF\Services\obj\Debug\net8.0\Services.sourcelink.json
+D:\Repos\PRN221\MyStoreWPF\Services\obj\Debug\net8.0\Services.csproj.CopyComplete

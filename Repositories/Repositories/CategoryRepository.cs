@@ -1,12 +1,11 @@
 ﻿using DataAccessLayer;
+using DataAccessLayer.DAOs;
 using DataAccessLayer.Models;
 using Repositories.Abstractions;
 
 namespace Repositories.Repositories;
 
-public class CategoryRepository : RepositoryBase<Category, int>, ICategoryRepository
+public class CategoryRepository : ICategoryRepository
 {
-    public CategoryRepository(MyStoreContext myStoreContext) : base(myStoreContext)
-    {
-    }
+    public List<Category> GetAllCategories() => CategoryDAO.GetAllCategories();
 }

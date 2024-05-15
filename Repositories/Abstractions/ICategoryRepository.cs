@@ -2,7 +2,7 @@
 
 namespace Repositories.Abstractions;
 
-public interface ICategoryRepository : IRepositoryBase<Category, int>
+public interface ICategoryRepository
 {
-    
+    List<Category> GetAllCategories();
 }

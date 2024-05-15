@@ -10,8 +10,9 @@ D:\Repos\PRN221\MyStoreWPF\Repositories\obj\Debug\net8.0\Repositories.GeneratedM
 D:\Repos\PRN221\MyStoreWPF\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
 D:\Repos\PRN221\MyStoreWPF\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
 D:\Repos\PRN221\MyStoreWPF\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
-D:\Repos\PRN221\MyStoreWPF\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
 D:\Repos\PRN221\MyStoreWPF\Repositories\obj\Debug\net8.0\Repositories.dll
 D:\Repos\PRN221\MyStoreWPF\Repositories\obj\Debug\net8.0\refint\Repositories.dll
 D:\Repos\PRN221\MyStoreWPF\Repositories\obj\Debug\net8.0\Repositories.pdb
 D:\Repos\PRN221\MyStoreWPF\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+D:\Repos\PRN221\MyStoreWPF\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+D:\Repos\PRN221\MyStoreWPF\Repositories\obj\Debug\net8.0\Repositories.csproj.CopyComplete

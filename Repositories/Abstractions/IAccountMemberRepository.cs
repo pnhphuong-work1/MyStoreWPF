@@ -2,7 +2,7 @@
 
 namespace Repositories.Abstractions;
 
-public interface IAccountMemberRepository : IRepositoryBase<AccountMember, string>
+public interface IAccountMemberRepository
 {
-    
+    AccountMember? GetAccountMemberById(string accountId);
 }

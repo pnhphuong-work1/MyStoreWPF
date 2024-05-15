@@ -1,12 +1,12 @@
 ﻿using DataAccessLayer;
+using DataAccessLayer.DAOs;
 using DataAccessLayer.Models;
 using Repositories.Abstractions;
 
 namespace Repositories.Repositories;
 
-public class AccountMemberRepository : RepositoryBase<AccountMember, string>, IAccountMemberRepository
+public class AccountMemberRepository : IAccountMemberRepository
 {
-    public AccountMemberRepository(MyStoreContext myStoreContext) : base(myStoreContext)
-    {
-    }
+    public AccountMember? GetAccountMemberById(string accountId) 
+        => AccountMemberDAO.GetAccountMemberById(accountId);
 }

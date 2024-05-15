@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\Repos\PRN221\MyStoreWPF\Presentation\App.xaml
-11407045341
+21589326146
 
-4-1209813958
-248-567283233
-MainWindow.xaml;
+51226027046
+248898375392
+Login.xaml;ProductWindow.xaml;
 
-False
+True
 

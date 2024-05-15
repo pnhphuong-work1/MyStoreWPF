@@ -14,4 +14,5 @@ D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.dll
 D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\bin\Debug\net8.0\BusinessObjects.pdb
 D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
 D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.genruntimeconfig.cache
-D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+D:\Repos\PRN221\MyStoreWPF\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CopyComplete
