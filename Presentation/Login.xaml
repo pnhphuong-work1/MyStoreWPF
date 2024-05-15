@@ -10,7 +10,7 @@
         <Label Content="Username" HorizontalAlignment="Left" Margin="25,130,0,0" VerticalAlignment="Top" FontSize="18"/>
         <Label Content="Password" HorizontalAlignment="Left" Margin="25,190,0,0" VerticalAlignment="Top" FontSize="18"/>
         <TextBox x:Name="TxtUsername" HorizontalAlignment="Left" Margin="130,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" FontSize="18"/>
-        <TextBox x:Name="TxtPassword" HorizontalAlignment="Left" Margin="130,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" FontSize="18"/>
+        <PasswordBox x:Name="TxtPassword" HorizontalAlignment="Left" Margin="130,198,0,0" VerticalAlignment="Top" Width="244" Height="26"/>
         <Button x:Name="BtnLogin" Content="Login" HorizontalAlignment="Center" Margin="0,291,0,0" VerticalAlignment="Top" Height="40" Width="110" Click="BtnLogin_Click"/>
 
     </Grid>

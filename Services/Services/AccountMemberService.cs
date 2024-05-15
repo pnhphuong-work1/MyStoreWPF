@@ -1,4 +1,4 @@
-﻿using DataAccessLayer.Models;
+﻿using BusinessObjects.Models;
 using Repositories.Abstractions;
 using Repositories.Repositories;
 using Services.Abstractions;
@@ -13,8 +13,8 @@ public class AccountMemberService : IAccountMemberService
         _iAccountMemberRepository = new AccountMemberRepository();
     }
 
-    public AccountMember? getAccountMemberById(string accountId)
+    public AccountMember? getAccountMemberByEmail(string email)
     {
-        return _iAccountMemberRepository.GetAccountMemberById(accountId);
+        return _iAccountMemberRepository.GetAccountMemberByEmail(email);
     }
 }

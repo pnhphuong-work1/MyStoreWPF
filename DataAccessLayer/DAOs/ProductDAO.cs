@@ -1,4 +1,6 @@
-﻿using DataAccessLayer.Models;
+﻿using BusinessObjects.DTOs;
+using BusinessObjects.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace DataAccessLayer.DAOs;
 
@@ -10,7 +12,8 @@ public class ProductDAO
         try
         {
             using var context = new MyStoreContext();
-            productList = context.Products.ToList();
+            productList = context.Products.Include(e => e.Category).ToList();
+
         }
         catch (Exception e)
         {

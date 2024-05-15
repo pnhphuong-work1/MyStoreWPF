@@ -1,8 +1,8 @@
-﻿using DataAccessLayer.Models;
+﻿using BusinessObjects.Models;
 
 namespace Repositories.Abstractions;
 
 public interface IAccountMemberRepository
 {
-    AccountMember? GetAccountMemberById(string accountId);
+    AccountMember? GetAccountMemberByEmail(string email);
 }

@@ -1,4 +1,7 @@
-﻿using System;
+﻿using BusinessObjects.DTOs;
+using Services.Abstractions;
+using Services.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,14 +22,51 @@ namespace Presentation
     /// </summary>
     public partial class ProductWindow : Window
     {
+        private readonly IProductService _iProductService;
+
         public ProductWindow()
         {
             InitializeComponent();
+            _iProductService = new ProductService();
         }
 
-        private void DgProduct_Loaded(object sender, RoutedEventArgs e)
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            var productList = _iProductService.GetAllProducts();
+            var productViewList = new List<ProductDTO>();
+            foreach( var product in productList )
+            {
+                productViewList.Add(new ProductDTO
+                {
+                    ProductId = product.ProductId,
+                    ProductName = product.ProductName,
+                    CategoryId = product.CategoryId,
+                    UnitsInStock = product.UnitsInStock,
+                    UnitPrice = product.UnitPrice,
+                    CategoryName = product.Category.CategoryName
+                });
+            }
+            dgData.ItemsSource = productViewList;
+        }
+
+        private void btnCreate_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void btnUpdate_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnDelete_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnClose_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
         }
     }
 }

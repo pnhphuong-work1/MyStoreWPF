@@ -1,8 +1,8 @@
-﻿using DataAccessLayer.Models;
+﻿using BusinessObjects.Models;
 
 namespace Services.Abstractions;
 
 public interface IAccountMemberService
 {
-    AccountMember? getAccountMemberById(string accountId);
+    AccountMember? getAccountMemberByEmail(string email);
 }

@@ -1,12 +1,12 @@
-﻿using DataAccessLayer.Models;
+﻿using BusinessObjects.Models;
 
 namespace DataAccessLayer.DAOs;
 
 public class AccountMemberDAO
 {
-    public static AccountMember? GetAccountMemberById(string accountId)
+    public static AccountMember? GetAccountMemberByEmail(string email)
     {
         using var context = new MyStoreContext();
-        return context.AccountMembers.FirstOrDefault(a => a.MemberId.Equals(accountId));
+        return context.AccountMembers.FirstOrDefault(a => a.EmailAddress.Equals(email));
     }
 }

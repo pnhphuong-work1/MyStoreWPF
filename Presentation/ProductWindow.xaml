@@ -5,38 +5,60 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Presentation"
         mc:Ignorable="d"
-        Title="ProductWindow" Height="650" Width="1100">
+        WindowStartupLocation="CenterScreen"
+        Title="ProductWindow" Height="670" Width="710" Loaded="Window_Loaded">
     <Grid>
-        <DataGrid x:Name="DgProduct" AutoGenerateColumns="False" Margin="470,30,30,180" Loaded="DgProduct_Loaded">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="Product ID"/>
-                <DataGridTextColumn Header="Product Name"/>
-                <DataGridTextColumn Header="Unit Price"/>
-                <DataGridTextColumn Header="Units in Stock"/>
-                <DataGridTextColumn Header="Category"/>
-            </DataGrid.Columns>
-        </DataGrid>
-        <Label Content="Product ID" HorizontalAlignment="Left" Margin="30,60,0,0" VerticalAlignment="Top"/>
-        <Label Content="Product Name" HorizontalAlignment="Left" Margin="30,120,0,0" VerticalAlignment="Top"/>
-        <Label Content="Unit Price" HorizontalAlignment="Left" Margin="30,180,0,0" VerticalAlignment="Top"/>
-        <Label Content="Units In Stock" HorizontalAlignment="Left" Margin="30,240,0,0" VerticalAlignment="Top"/>
-        <Label Content="Category" HorizontalAlignment="Left" Margin="30,300,0,0" VerticalAlignment="Top"/>
-        <Label Content="Search" HorizontalAlignment="Left" Margin="470,470,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="TxtProductId" HorizontalAlignment="Left" Margin="180,65,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="260"/>
-        <TextBox x:Name="TxtProductName" HorizontalAlignment="Left" Margin="180,125,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="260"/>
-        <TextBox x:Name="TxtPrice" HorizontalAlignment="Left" Margin="180,185,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="260"/>
-        <TextBox x:Name="TxtUnit" HorizontalAlignment="Left" Margin="180,245,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="260"/>
-        <TextBox x:Name="TxtCategoryName" HorizontalAlignment="Left" Margin="180,305,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="260"/>
-        <TextBox x:Name="TxtSearch" HorizontalAlignment="Left" Margin="640,475,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="430"/>
+        <Grid>
+            <Grid.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#0099FF" Offset="0"/>
+                    <GradientStop Color="#FF347BDA" Offset="0.794"/>
+                    <GradientStop Color="#FF60B1E7" Offset="1"/>
+                    <GradientStop Color="#FF596FDD" Offset="0.309"/>
+                    <GradientStop Color="#FF472FDE" Offset="0.484"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
 
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="119.415"/>
+                <ColumnDefinition Width="30.585"/>
+                <ColumnDefinition Width="47*"/>
+                <ColumnDefinition Width="513*"/>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="label" Content="Product Management" Grid.Column="2" Grid.Row="0" FontSize="36" Grid.ColumnSpan="2" HorizontalAlignment="Center" Width="466"/>
+
+            <Label x:Name="label1" Margin ="2,2,2,2"  Content="Product ID" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2"/>
+            <TextBox x:Name="txtProductID" Margin ="4,4,4,4" Grid.Column="2" Grid.Row="1" Text="" TextWrapping="Wrap" Grid.ColumnSpan="2" IsEnabled="False" />
+
+            <Label x:Name="label2" Margin ="2,2,2,2" Grid.Column="0" Grid.Row="2" Content="Product Name" Grid.ColumnSpan="2" />
+            <TextBox x:Name="txtProductName" Margin ="4,4,4,4" Grid.Column="2" Grid.Row="2" Text="" TextWrapping="Wrap" Grid.ColumnSpan="2" />
+
+            <Label x:Name="label8" Margin ="2,2,2,2" Content="Price" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2"/>
+            <TextBox x:Name="txtPrice"  Margin ="4,4,4,4" Grid.Column="2" Grid.Row="3" Text="" TextWrapping="Wrap" Grid.ColumnSpan="2" />
+
+            <Label x:Name="label3" Margin ="2,2,2,2" Content="Units In Stock" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2"/>
+            <TextBox x:Name="txtUnitsInStock" Margin ="4,4,4,4"  Grid.Column="2" Grid.Row="4"  Text="" TextWrapping="Wrap" Grid.ColumnSpan="2" />
+            
+            <Label x:Name="label4" Margin ="2,2,2,2" Content="Category" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2"/>
+            <ComboBox x:Name="cboCategory" Margin ="4,4,4,4" Grid.Column="2" Grid.Row="5" Grid.ColumnSpan="2" />
+            
+            <DataGrid x:Name="dgData" Margin ="4,4,4,63" Grid.Column="2" Grid.Row="6" Grid.ColumnSpan="2" />
+            
+            <Button  x:Name="btnCreate" Content="Create" HorizontalAlignment="Left" Margin="29,365,0,16" Grid.Row="6" Grid.RowSpan="2" Width="121"  Background="#FF0099FF" BorderBrush="White" Foreground="White" Grid.ColumnSpan="3" Grid.Column="1" Click="btnCreate_Click"/>
+            <Button x:Name="btnUpdate" Content="Update" Grid.Column="3" HorizontalAlignment="Left" Margin="87,365,0,16" Grid.Row="6" Width="118" Background="#FF1B7140" Foreground="White" Grid.RowSpan="2" RenderTransformOrigin="0.37,0.2" Click="btnUpdate_Click"/>
+            <Button x:Name="btnDelete" Content="Delete" Grid.Column="3" HorizontalAlignment="Left" Margin="221,365,0,16" Grid.Row="6" Grid.RowSpan="2" Width="127" Foreground="White" Background="#FFA2AA3D" Click="btnDelete_Click"/>
+            <Button x:Name="btnClose" Content="Close" Grid.Column="3" HorizontalAlignment="Left" Margin="371,365,0,18" Grid.Row="6" Grid.RowSpan="2" Width="120" Background="#FFEF8F18" Foreground="White" Click="btnClose_Click"/>
+        </Grid>
     </Grid>
-    <Window.Resources>
-        <Style TargetType="Label">
-            <Setter Property="FontSize" Value="18"/>
-            <Setter Property="FontWeight" Value="Bold"/>
-        </Style>
-        <Style TargetType="TextBox">
-            <Setter Property="FontSize" Value="18"/>
-        </Style>
-    </Window.Resources>
 </Window>

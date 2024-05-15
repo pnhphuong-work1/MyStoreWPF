@@ -81,5 +81,6 @@ D:\Repos\PRN221\MyStoreWPF\Presentation\obj\Debug\net8.0-windows\Presentation.so
 D:\Repos\PRN221\MyStoreWPF\Presentation\obj\Debug\net8.0-windows\Presentation.csproj.CopyComplete
 D:\Repos\PRN221\MyStoreWPF\Presentation\obj\Debug\net8.0-windows\Login.g.cs
 D:\Repos\PRN221\MyStoreWPF\Presentation\obj\Debug\net8.0-windows\Login.baml
-D:\Repos\PRN221\MyStoreWPF\Presentation\obj\Debug\net8.0-windows\ProductManagementWindow.g.cs
-D:\Repos\PRN221\MyStoreWPF\Presentation\obj\Debug\net8.0-windows\ProductManagementWindow.baml
+D:\Repos\PRN221\MyStoreWPF\Presentation\obj\Debug\net8.0-windows\ProductWindow.g.cs
+D:\Repos\PRN221\MyStoreWPF\Presentation\obj\Debug\net8.0-windows\ProductWindow.baml
+D:\Repos\PRN221\MyStoreWPF\Presentation\bin\Debug\net8.0-windows\appsettings.json

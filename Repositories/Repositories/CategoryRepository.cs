@@ -1,6 +1,6 @@
 ﻿using DataAccessLayer;
 using DataAccessLayer.DAOs;
-using DataAccessLayer.Models;
+using BusinessObjects.Models;
 using Repositories.Abstractions;
 
 namespace Repositories.Repositories;

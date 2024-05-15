@@ -1,12 +1,11 @@
 ﻿using DataAccessLayer;
 using DataAccessLayer.DAOs;
-using DataAccessLayer.Models;
+using BusinessObjects.Models;
 using Repositories.Abstractions;
 
 namespace Repositories.Repositories;
 
 public class AccountMemberRepository : IAccountMemberRepository
 {
-    public AccountMember? GetAccountMemberById(string accountId) 
-        => AccountMemberDAO.GetAccountMemberById(accountId);
+    public AccountMember? GetAccountMemberByEmail(string email) => AccountMemberDAO.GetAccountMemberByEmail(email);
 }
